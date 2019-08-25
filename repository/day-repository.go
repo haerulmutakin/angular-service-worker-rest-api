@@ -1,5 +1,6 @@
 package repository
 
+
 func GetTodo() string {
 	return "SELECT id, name, completed FROM go_test.todo ORDER BY completed ASC ,date_update DESC"
 }
