@@ -1,0 +1,9 @@
+# This is configuration file
+# Cockroach DB Configuration
+
+[cockroachdb]
+CockroachHost = "10.30.2.21:26257"
+CockroachUsername = "avenger"
+CockroachPassword = "avenger"
+CockroachDatabaseName = "insani"
+CAUser = "rejak"
